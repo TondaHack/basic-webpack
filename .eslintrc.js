@@ -5,8 +5,11 @@ module.exports = {
     "node": true
   },
   "globals": {
+    "describe": true,
     "it": true,
+    "test": true,
     "expect": true,
+    "jest": true
   },
   "rules": {}
 };

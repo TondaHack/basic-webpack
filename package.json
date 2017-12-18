@@ -1,11 +1,15 @@
 {
   "name": "basic-webpack",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "eslint": "eslint ./src",
-    "build": "webpack"
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "build": "webpack",
+    "test": "jest .",
+    "test:watch": "jest . --watch",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
